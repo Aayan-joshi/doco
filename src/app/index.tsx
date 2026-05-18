@@ -1,5 +1,7 @@
 import { images } from "@/constants/images";
-import { Image, SafeAreaView, ScrollView, Text, View } from "react-native";
+import { Link } from "expo-router";
+import { Image, Pressable, ScrollView, Text, View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function Index() {
   return (
@@ -51,9 +53,11 @@ export default function Index() {
         </View>
 
         <View className="lingua-section gap-5">
-          <View className="lingua-button lingua-button--primary">
-            <Text className="lingua-button__text">Get Started</Text>
-          </View>
+          <Link href="/onboarding" asChild>
+            <Pressable className="lingua-button lingua-button--primary">
+              <Text className="lingua-button__text">Open Onboarding</Text>
+            </Pressable>
+          </Link>
           <View className="lingua-input justify-center">
             <Text className="body-md">alex@gmail.com</Text>
           </View>
