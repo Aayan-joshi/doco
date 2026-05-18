@@ -1,0 +1,58 @@
+@layer theme {
+  @theme {
+    --color-lingua-purple: #6c4ef5;
+    --color-lingua-deep-purple: #5b3bf6;
+    --color-lingua-blue: #4d8bff;
+    --color-lingua-green: #21c16b;
+
+    --color-primary: #6c4ef5;
+    --color-primary-strong: #5b3bf6;
+    --color-primary-soft: #f3f0ff;
+    --color-success: #21c16b;
+    --color-warning: #ffc800;
+    --color-streak: #ff8a00;
+    --color-error: #ff4d4f;
+    --color-info: #4d8bff;
+
+    --color-text-primary: #0d132b;
+    --color-text-secondary: #6b7280;
+    --color-text-muted: #8991a8;
+    --color-border: #e5e7eb;
+    --color-border-soft: #eef0f6;
+    --color-surface: #f6f7fb;
+    --color-surface-warm: #fff7ec;
+    --color-surface-green: #f2faeb;
+    --color-background: #ffffff;
+
+    --font-poppins: "Poppins-Regular";
+    --font-poppins-medium: "Poppins-Medium";
+    --font-poppins-semibold: "Poppins-SemiBold";
+    --font-poppins-bold: "Poppins-Bold";
+    --font-sans: "Poppins-Regular";
+
+    --spacing-screen: 24px;
+    --spacing-section: 32px;
+    --spacing-card: 20px;
+
+    --radius-button: 18px;
+    --radius-card: 24px;
+    --radius-card-sm: 18px;
+    --radius-input: 18px;
+    --radius-pill: 999px;
+
+    --shadow-card: 0 10px 24px rgba(13, 19, 43, 0.06);
+    --shadow-button: 0 6px 0 rgba(91, 59, 246, 0.2);
+  }
+}
+
+@media android {
+  :root {
+    --font-sans: var(--font-poppins);
+  }
+}
+
+@media ios {
+  :root {
+    --font-sans: var(--font-poppins);
+  }
+}

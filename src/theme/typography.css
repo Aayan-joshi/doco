@@ -1,0 +1,97 @@
+@layer utilities {
+  .font-poppins {
+    font-family: var(--font-poppins);
+  }
+
+  .font-poppins-medium {
+    font-family: var(--font-poppins-medium);
+  }
+
+  .font-poppins-semibold {
+    font-family: var(--font-poppins-semibold);
+  }
+
+  .font-poppins-bold {
+    font-family: var(--font-poppins-bold);
+  }
+
+  .h1 {
+    font-family: var(--font-poppins-bold);
+    font-size: 32px;
+    line-height: 38.4px;
+    font-weight: 700;
+    color: var(--color-text-primary);
+  }
+
+  .h2 {
+    font-family: var(--font-poppins-semibold);
+    font-size: 24px;
+    line-height: 31.2px;
+    font-weight: 600;
+    color: var(--color-text-primary);
+  }
+
+  .h3 {
+    font-family: var(--font-poppins-semibold);
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 600;
+    color: var(--color-text-primary);
+  }
+
+  .h4 {
+    font-family: var(--font-poppins-medium);
+    font-size: 16px;
+    line-height: 22.4px;
+    font-weight: 500;
+    color: var(--color-text-primary);
+  }
+
+  .body-lg {
+    font-family: var(--font-poppins);
+    font-size: 16px;
+    line-height: 25.6px;
+    font-weight: 400;
+    color: var(--color-text-secondary);
+  }
+
+  .body-md {
+    font-family: var(--font-poppins);
+    font-size: 14px;
+    line-height: 22.4px;
+    font-weight: 400;
+    color: var(--color-text-secondary);
+  }
+
+  .body-sm {
+    font-family: var(--font-poppins);
+    font-size: 13px;
+    line-height: 20.8px;
+    font-weight: 400;
+    color: var(--color-text-secondary);
+  }
+
+  .caption {
+    font-family: var(--font-poppins);
+    font-size: 11px;
+    line-height: 15.4px;
+    font-weight: 400;
+    color: var(--color-text-secondary);
+  }
+
+  .label {
+    font-family: var(--font-poppins-semibold);
+    font-size: 12px;
+    line-height: 16.8px;
+    font-weight: 600;
+    color: var(--color-text-secondary);
+    text-transform: uppercase;
+  }
+
+  .button-label {
+    font-family: var(--font-poppins-semibold);
+    font-size: 18px;
+    line-height: 25.2px;
+    font-weight: 600;
+  }
+}
